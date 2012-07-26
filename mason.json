@@ -1,0 +1,29 @@
+{
+  "style.css": {
+    "type": "stylus",
+    "sourceRoot": ".",
+    "sourcePaths": ["/styl/style.styl"],
+    "destRoot": ".",
+    "destPath": "/styl/compiled/style.css"
+  },
+
+  "index.html": {
+    "type": "jade",
+    "sourceRoot": "./jade/",
+    "sourcePaths": ["index.jade"],
+    "destRoot": "",
+    "destPath": "public/index.html"
+  },
+
+  "js.js": {
+    "type": "javascript",
+    "sourceRoot": ".",
+    "sourcePaths": [
+      "/js/jquery-1.7.2.min.js",
+      "/js/bootstrap-scrollspy.js",
+      "/js/app.js"
+    ],
+    "destRoot": ".",
+    "destPath": "/js/compiled/all.js"
+  }
+}
