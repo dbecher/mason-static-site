@@ -13,3 +13,6 @@ results
 
 node_modules
 npm-debug.log
+
+styl/compiled/*.css
+js/compiled/*.js
